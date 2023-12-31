@@ -11,8 +11,8 @@ google-cloud
 google-cloud-storage
 plotly~=5.7.0
 pytz>=2022.1
-setuptools~=63.2.0
-numpy>=1.21
+setuptools~=65.5.1
+numpy>=1.22.2
 requests
 torchvision>=0.6.0
 mpld3>=0.5
@@ -21,3 +21,5 @@ sphinx
 sphinx-rtd-theme
 sphinx-autodoc-typehints
 sphinx
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
